@@ -1,0 +1,104 @@
+body
+{
+display: block;
+  background-color: black;
+}
+nav
+{
+  display: block;
+  font-family: arial;
+  position: sticky;
+}
+#about , #contactus , #home
+{
+  display: float;
+  float: left;
+  padding : 20px;
+  color:white;
+  background-color: black;
+}
+#about:hover , #contactus:hover , #home:hover
+{
+  background-color: gray;
+}
+.bigpic
+{
+  display: block;
+  padding:  30px;
+  background-image: url("1.jpg");
+  background-attachment: fixed;
+  height:1000px;
+}
+txt
+{
+  display: block;
+  background-color: black;
+  color: white;
+  font-family: bangers;
+  padding:10px;
+  font-size: 80px;
+  margin: 500px;
+  position: center;
+}
+.about
+{
+  display: block;
+  font-family:bangers;
+  font-size: 35px;
+  color:palevioletred;
+  padding: 20px;
+  text-align: left;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+}
+  #text
+{
+  display: block;
+  float:left;
+  background-attachment: fixed;
+  padding: 20px;
+  position:static;
+  
+}
+.\31 
+{
+  display: block;
+  background-attachment: fixed;
+  padding: 20px;
+  position: left;
+  border-radius: 50%;
+  
+}
+.contactus
+{
+  display: block;
+  background-image: url("2.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  
+}
+txt2
+{
+ display: block;
+  background-color: none;
+  color: white;
+  font-family: bangers;
+  padding:10px;
+  font-size: 60px;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  margin: 200px;
+  position: center;
+  text-align: center;
+  box-shadow: 0px 0px 100px 0px black;
+  border-radius: 50% 50%  0 0
+  
+}
+hr
+{
+  height:20px;
+  width:100px;
+  background-color: black;
+  
+}
+  
